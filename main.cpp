@@ -10,6 +10,7 @@ string get_sentence_from_user();
 int get_int_from_user();
 double get_float_from_user();
 
+// main method created by Lisa Dion, prompts user for input
 int main() {
     char letter = get_char_from_user();
     cout << "You entered the character " << letter << endl;
@@ -24,6 +25,7 @@ int main() {
     return 0;
 }
 
+//input validation for characters
 char get_char_from_user() {
     string sentence = "a";
     char character = 'a';
@@ -46,6 +48,7 @@ char get_char_from_user() {
     return character;
 }
 
+//input validation for words
 string get_word_from_user() {
     string word;
     bool flag = true;
@@ -73,6 +76,7 @@ string get_word_from_user() {
     return word;
 }
 
+//input validation for sentences
 string get_sentence_from_user() {
     string s = "";
     cout << "Enter a sentence: "; //prompts user for input
@@ -85,6 +89,7 @@ string get_sentence_from_user() {
     return s;
 }
 
+//input validation for integers
 int get_int_from_user() {
     string stringNumber;
     int number;
@@ -122,6 +127,7 @@ int get_int_from_user() {
     return number;
 }
 
+//input validation for floating-point numbers
 double get_float_from_user() {
     string stringFloat;
     double floatingPoint;

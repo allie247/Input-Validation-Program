@@ -2,7 +2,7 @@
 
 I created a C++ program that validates all types of input in a user-friendly manner.
 
-* My main program prompts the user for the following types of data:
+* My main method prompts the user for the following types of data:
 
 | Type of input | Definition                                                        |
 |---------------|-------------------------------------------------------------------|
@@ -12,6 +12,7 @@ I created a C++ program that validates all types of input in a user-friendly man
 | Integer | A valid integer value with nothing else on the same line of input |
 | Floating-Point Number | A valid floating-point number (which can be an integer, it isn't required to have a decimal part) and nothing else on the same line of input |
 
+* The main method was written by Lisa Dion, and the following methods are my own code.
 * My program validates all input, re-prompting the user when invalid input is received or no input is received. There are different reprompt messages for specific types of invalid input (see sample output below).
 * My program does not have any runtime errors, no matter what the user enters.
 * My program utilizes functions for each type of input to keep my code organized.
